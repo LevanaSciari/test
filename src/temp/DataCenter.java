@@ -7,10 +7,12 @@ public class DataCenter
 	private String[] msg = new String[CAPACITY];
 	private int count = 0;
 	
+	
 	public String getMsg() 
 	{
 		count--;
 		return msg[count];
+		System.out.println("yarin");
 	}
 	
 	public void setMsg(String msg)
